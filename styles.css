@@ -18,26 +18,59 @@ body
 }
 
 #center{
-width: 80%;
-height: 100%;
-float: left;
-overflow: scroll;
+    width: 80%;
+    height: 100%;
+    float: left;
+    overflow: scroll;
+}
+
+img{
+    border-radius: 50%;
+}
+
+h3{
+    color: rgb(99, 99, 99);
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 20px;
 }
 
 .profielfoto {
+    margin-top: 20px;
+    width: 127px;
+    height: 127px;
+}
 
+#hr{
+    border: 2px solid rgb(121, 255, 121);
+    width: 920px;
+    margin-left: -400px;
 }
 
 .reflectie {
-
+    width: 820px;
+    height: 320px;
+    margin-top: 100px;
+    padding: 50px;
+    border: 1px solid rgb(121, 255, 121);
+    border-radius:  50px;
 }
 
 .actiepunten{
-
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    padding: 50px;
+    border: 1px solid rgb(121, 255, 121);
+    border-radius:  50px;
 }
 
 .doel{
-
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    padding: 50px;
+    border: 1px solid rgb(121, 255, 121);
+    border-radius:  50px;
 }
 
 #right{
